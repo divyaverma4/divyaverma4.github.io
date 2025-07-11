@@ -1,81 +1,137 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Portfolio Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
 
-        <!--==================== UNICONS ====================-->
-        
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="">
+    header, footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
 
-        <title>Responsive Portfolio Website</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            
-        </header>
+    section {
+      padding: 40px 20px;
+      border-bottom: 1px solid #ddd;
+    }
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                
-            </section>
+    .section h2 {
+      margin-top: 0;
+    }
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                
-            </section>
+    a {
+      color: #0077b5;
+      text-decoration: none;
+      display: block;
+      margin: 5px 0;
+    }
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
+    .footer a {
+      color: white;
+    }
 
-            </section>
+    .info-grid {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
 
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+    .info-grid div {
+      text-align: center;
+    }
 
-            </section>
+    .list {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
-            </section>
+  <header class="header" id="header">
+    <h1>Divya Verma</h1>
+  </header>
 
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                
-            </section>
+  <main class="main">
+    <!-- HOME -->
+    <section class="home section" id="home">
+      <h2>Home</h2>
+      <div class="home__social">
+        <a href="https://www.linkedin.com/divya-verma48" target="_blank">LinkedIn</a>
+        <a href="https://github.com/divyaverma4" target="_blank">GitHub</a>
+      </div>
+      <p class="home__description">
+        High level experience in web design and development knowledge, producing quality work.
+      </p>
+    </section>
 
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <h2>About</h2>
+      <p class="about__description">
+        Web developer, with extensive knowledge and years of experience, working in web technologies and UI/UX design, delivering quality work.
+      </p>
+      <div class="info-grid">
+        <div>
+          <strong>Years</strong><br>experience
+        </div>
+        <div>
+          <strong>Completed</strong><br>project
+        </div>
+        <div>
+          <strong>Companies</strong><br>worked
+        </div>
+      </div>
+    </section>
 
-            </section>
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+      <h2>Services</h2>
+      <ul class="list services__modal-service">
+        <li>I develop the user interface.</li>
+        <li>Web page development.</li>
+        <li>I create UX element interactions.</li>
+        <li>I position your company brand.</li>
+      </ul>
+    </section>
 
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
+    <!-- PORTFOLIO -->
+    <section class="portfolio section" id="portfolio">
+      <h2>Portfolio</h2>
+      <p class="portfolio__description">
+        Website adaptable to all devices, with UI components and animated interactions.
+      </p>
+    </section>
 
-            </section>
-        </main>
+    <!-- PROJECT -->
+    <section class="project section" id="project">
+      <h2>Project in Mind?</h2>
+      <p class="project__description">
+        Contact me now and get a 30% discount on your new project.
+      </p>
+    </section>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-         
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        
+    <!-- CONTACT (Empty for now) -->
+    <section class="contact section" id="contact">
+      <h2>Contact</h2>
+    </section>
+  </main>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+  <footer class="footer">
+    <p>Connect with me:</p>
+    <div class="footer__social">
+      <a href="https://www.linkedin.com/divya-verma48" target="_blank">LinkedIn</a>
+      <a href="https://github.com/divyaverma4" target="_blank">GitHub</a>
+    </div>
+  </footer>
 
-        <!--==================== MAIN JS ====================-->
-        <script src=""></script>
-    </body>
+</body>
 </html>
